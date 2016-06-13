@@ -11,8 +11,7 @@ class Complement
       complements[molecule.to_sym] if complements[molecule.to_sym]
     end
 
-    (translation.join('').length == molecule_strand.length) ? translation.join('')
-                                                            : ''
+    (translation.join('').length == molecule_strand.length) ? translation.join('') : ''
   end
 
 end
